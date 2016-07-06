@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo su
+cp ./caught /usr/local/bin/
+chmod +x /usr/local/bin/caught
+sudo -k

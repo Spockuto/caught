@@ -1,0 +1,4 @@
+#!/bin/bash
+name = `date +%c`
+ffmpeg -f video4linux2 -s vga -i /dev/video0 -vframes -1 "/tmp/WrongPassword-$name.jpg"
+exit 0
